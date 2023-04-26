@@ -1,0 +1,161 @@
+header {
+	position: absolute;
+	left :0;
+	top:0;
+	height: 300px;
+	width:100%;
+	background: url('../img/banner.jpg') no-repeat;
+}
+
+body {
+	margin: 0;
+	padding :0;
+	font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #000333;
+}
+
+body#home section#contentGame {
+	position: absolute;
+	top: 280px;
+	left: 25%;
+	width: 500px;
+	margin: 0 0 0 -250px;
+	padding: 0;
+}
+
+body#home section#contentLicense {
+	position: absolute;
+	top: 280px;
+	left: 75%;
+	width: 500px;
+	margin: 0 0 0 -250px;
+	padding: 0;
+}
+
+body#home section#contentGame table{
+	width:100%;
+	border-color: #696969;
+	border-width: 2px;
+}
+
+body#home section#contentGame table tr{
+	height:30px;
+}
+
+body#home section#contentGame table td{
+	text-align:center;
+}
+
+body#home button#addGame {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+	background-color: #678b04;
+}
+
+body#loginPage section#content {
+	position: absolute;
+	top: 280px;
+	left: 50%;
+	width: 500px;
+	margin: 0 0 0 -250px;
+	padding: 0;
+}
+
+body#userCreatePage section#content {
+	position: absolute;
+	top: 280px;
+	left: 50%;
+	width: 500px;
+	margin: 0 0 0 -250px;
+	padding: 0;
+}
+
+body#userGameEntry section#content {
+	position: absolute;
+	top: 280px;
+	left: 50%;
+	width: 500px;
+	margin: 0 0 0 -250px;
+	padding: 0;
+}
+
+body#userGameEntry h1, h2, h3 {
+	display: block;
+	padding: 2px;
+	text-align: center;
+}
+
+
+
+form label {
+	display: block;
+	width: 150px;
+	float: left;
+	text-align: right;
+	padding: 4px 10px 0 0;
+}
+
+form input[type="email"], form input[type="text"], form input[type="password"] {
+	display: block;
+	width: 250px;
+	padding: 2px;
+}
+
+form input[type="submit"] {
+	margin: 0 20px 0 160px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+	background-color: #678b04
+}
+
+body#userCreatePage form input[type="submit"] {
+	margin: 0 20px 0 160px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+	background-color: #678b04
+}
+
+body#userGameEntry form select[name="club"], form select[name="start"] {
+	display: block;
+	width: 250px;
+	padding: 2px;
+}
+
+body#userGameEntry table {
+	display: block;
+	border-style: solid;
+	border-color: #696969;
+}
+
+body#userGameEntry table th[scope="hole"]{
+	text-align: center;
+	background-color: #678b04;
+	border-color: #696969;
+}
+
+body#userGameEntry table th[scope="leftrow"]{
+	text-align: center;
+	padding: 10px;
+	width:100%;
+	background-color: #678b04;
+	border-color: #696969;
+}
+
+body#userGameEntry input[type="text"] {
+	width:35px;
+}
+
+body#userGameEntry input[type="submit"] {
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9dfea #0e1f5b #0e1f5b #d9dfea;
+	background-color: #678b04;
+}
